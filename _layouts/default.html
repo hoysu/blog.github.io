@@ -5,47 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <style>
-    /* 박스 스타일 추가 */
-    .report-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
+  .report-container {
+    display: block; /* Flex 대신 Block으로 변경 */
+    margin: 0 auto;
+    max-width: 800px; /* 중앙 정렬을 위해 최대 폭 지정 */
+  }
 
-    .report-box {
-      width: 300px;
-      padding: 20px;
-      background-color: #f5f5f5;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      text-align: center;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
+  .report-box {
+    width: 100%;
+    max-width: 100%; /* 최대 폭을 부모에 맞춤 */
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* 박스 간격 */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
 
-    .report-box:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    }
+  .report-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
 
-    .report-box a {
-      text-decoration: none;
-      color: inherit;
-    }
+  .report-box a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
 
-    .report-box h2 {
-      margin: 0 0 10px;
-      font-size: 20px;
-      color: #333;
-    }
+  .report-box h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
 
-    .report-box p {
-      margin: 0;
-      font-size: 16px;
-      color: #666;
-    }
-  </style>
+  .report-box p {
+    margin: 0;
+    font-size: 18px;
+    color: #666;
+  }
+</style>
 </head>
 <body>
   <header>
