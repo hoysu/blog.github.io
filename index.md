@@ -5,6 +5,23 @@ title: "Blog"
 
 # Technical Reports
 
-- [The Exchange Model: to predict exchange rates in the forex market and generate detailed reports based on Meta's Llama 3.1](page1.md)
-- [What is Llama 3.1](page2.md)
-- [How to use models](page3.md)
+<div class="report-container">
+  <div class="report-box">
+    <a href="page1.md">
+      <h2>The Exchange Model: to predict exchange rates in the forex market and generate detailed reports based on Meta's Llama 3.1</h2>
+      <p>Explore the examples and their detailed explanations.</p>
+    </a>
+  </div>
+  <div class="report-box">
+    <a href="page2.md">
+      <h2>What is Llama 3.1</h2>
+      <p>Learn more about the "What and Why" of this topic.</p>
+    </a>
+  </div>
+  <div class="report-box">
+    <a href="page3.md">
+      <h2>How to use models</h2>
+      <p>Dive into the step-by-step process of "How."</p>
+    </a>
+  </div>
+</div>
