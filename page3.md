@@ -1,10 +1,39 @@
 ---
 layout: default
-title: "페이지 3"
+title: "How to use models"
 ---
 
-# 페이지 3
+# How to use models
+To use this model, please complete the application form and submit it via email.
+Access will be granted after your application is reviewed and approved.
+We appreciate your cooperation and look forward to assisting you.
+~~~
+1. **Name:**
+   - (e.g., John Doe)
+2. **Date of Birth:**
+   - (e.g., January 1, 1990)
+3. **Affiliation:**
+   - Are you applying as a company or an individual? [ ] Company  [ ] Individual
+   - Company Name (if applicable):
+   - Department (if applicable):
+4. **Position/Role:**
+   - (e.g., Data Scientist, Researcher, etc.)
+5. **Contact Information:**
+   - Email:
+   - Phone Number:
 
-이것은 세 번째 페이지입니다.
+6. **Purpose of Use:**
+   - (e.g., Research and Development, Commercial use, Educational purposes, etc.)
 
-[목차로 돌아가기](index.md)
+7. **Detailed Reason for Use:**
+   - 1. Name and version of the model you wish to use:
+   - 2. Reason for selecting this model:
+   - 3. Objectives to achieve using this model:
+   - 4. Expected use cases (please describe in as much detail as possible):
+
+8. **Data Security and Ethical Use Plan:**
+   - (Please describe your plans for data protection and ethical use.)
+~~~
+
+
+[이전](index.md)
