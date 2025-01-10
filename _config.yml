@@ -1,4 +1,5 @@
 title: "My Awesome Blog"
 description: "A place for awesome content"
-theme: jekyll-theme-hyde
+#theme: jekyll-theme-hyde
+theme: jekyll-theme-hydeout
 author: "Your Name"
