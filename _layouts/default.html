@@ -13,17 +13,20 @@
       padding: 0;
     }
 
+    /* 헤더 스타일 */
     header {
-      background-color: #4CAF50; /* 헤더 배경색 */
+      background: linear-gradient(to bottom, #00bcd4, #4CAF50); /* 하늘색 그라데이션 */
       color: white;
-      padding: 20px;
+      padding: 60px 20px; /* 세로 길이를 3배로 증가 */
       text-align: center;
     }
 
     header h1 {
       margin: 0;
+      font-size: 48px;
     }
 
+    /* 본문 스타일 */
     main {
       background-color: #fff;
       padding: 20px;
@@ -31,9 +34,10 @@
       max-width: 1200px; /* 최대 너비 설정 */
     }
 
+    /* 푸터 스타일 */
     footer {
-      background-color: #333;
-      color: white;
+      background-color: #fff; /* 하얀색 배경 */
+      color: #1a237e; /* 남색 텍스트 */
       text-align: center;
       padding: 10px;
     }
@@ -80,15 +84,6 @@
       font-size: 18px;
       color: #666; /* 텍스트 색상 */
     }
-
-    /* 구분을 위한 스타일 */
-    .sub-header {
-      background-color: #333; /* 서브 헤더 배경색 */
-      color: white;
-      padding: 10px;
-      text-align: center;
-      margin-top: 30px;
-    }
   </style>
 </head>
 <body>
@@ -96,9 +91,6 @@
     <h1>{{ site.title }}</h1>
   </header>
   <main>
-    <div class="sub-header">
-      <h2>Technical Reports</h2>
-    </div>
     {{ content }} <!-- 내용 삽입 부분 -->
   </main>
   <footer>
