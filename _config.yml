@@ -1,5 +1,6 @@
 title: "My Awesome Blog"
 description: "A place for awesome content"
 #theme: jekyll-theme-hyde
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 author: "Your Name"
